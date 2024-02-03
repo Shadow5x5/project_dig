@@ -1,0 +1,39 @@
+.block {
+    height: 525px;
+    width: 360px;
+    transition: 0.3s;
+    border-radius: 12px;
+    background-position: center;
+    background-size: 100% 100%;
+    color: var(--grayscale-white, #fff);
+    font-style: normal;
+    padding-top: 380px;
+}
+.active {
+    background-size: cover;
+}
+.disable {
+    flex-shrink: 2;
+    opacity: 0.4;
+    transform: scale(0.9);
+}
+
+.content {
+    max-width: 315px;
+    margin: 0 auto;
+}
+
+.author {
+    font-size: 30px;
+    font-style: normal;
+    line-height: 100%;
+    font-weight: 500;
+}
+
+.quote {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 110%;
+    font-weight: 400;
+    white-space: pre-wrap;
+}

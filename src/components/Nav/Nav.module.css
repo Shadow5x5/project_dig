@@ -1,0 +1,28 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    max-width: 1200px;
+    margin: 35px auto 60px;
+}
+.navlinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 40px;
+    color: var(--grayscale-black, #0d0d0d);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.navlinks li{
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.navlinks li:hover {
+    color: #FF6A49;
+}

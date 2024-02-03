@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.block {
+    height: 820px;
+    background: url('./../../assets/images/Teachers_bg.jpg'), lightgray;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    margin-top: 105px;
+    color: var(--grayscale-white, #fff);
+    font-style: normal;
+}
+
+.block_text {
+    max-width: 620px;
+    padding-top: 60px;
+}
+
+.block_text h2 {
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.block_text p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 16px;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,28 @@
+{
+    "nav-link-btn-1": "Kurslar",
+    "nav-link-btn-2": "O'qtuvchilar",
+    "nav-link-btn-3": "Biz haqimizda",
+    "nav-link-btn-4": "FAQ",
+    "nav-link-btn-5": "Kontaktlar",
+
+    "header-description": ["2 oy ichida ", "«mobilograph» ", "kasbini egallang"],
+    "header-additional-text": "O'zbekistondagi birinchi va eng samarali mobilografiya maktablaridan biri",
+    "start-learning-btn": "O'qishni boshlash",
+    "photography-opportunity-text": ["Biz sizga ", "mobilograf kasbini egallashga \n", "va ", "pul ishlashni boshlashingizga yordam beramiz", ".\nAgar siz allaqachon bu sohada bo'lsangiz, ", "biz sizning mahoratingizni oshiramiz ", "va loyihalar uchun ", "chekingizni oshirib ", "beramiz!", "Shaxsiy loyihalar ", "yoki ", "biznes ", "uchun kontent yaratish\nyoki mobil suratga olishni o'rgatamiz. Bizga qo'shiling\nva ijtimoiy tarmoqlarga yo'naltirilgan ", "kontent\nyaratishni boshlang!"],
+
+    "student-achievement-text": "Talabalar mobilografiya kurslarimizni muvafaqqiyatli tugatdilar",
+    "brand-collaboration-text": "Brendlar biz bilan\nishlaydi",
+    "content-creation-countries": "Dan ortiq xorijiy  mamlakatlarda kontent yaratdik",
+
+    "our-speakers": "Bizning spikerlar",
+    "experience-sharing-content": "Bu sohada muvaffaqiyatga erishgan mutahasislarimiz siz uchun bilimlarini bir joyga jamlashdi va barcha tajribalarini yetqazish uchun sizga hamrohlik qilishadi.",
+
+    "testimonial-author-name-1": "Inomjon Ismailov",
+    "testimonial-quote-1": "Asosiy spiker, kurs asoschisi. Samsung, PepsiCo, Saber, ФК Пахтакор, UzAirways, Belissimo Pizza brendlari bilan ishlagan. Evropa, Dubai, Turkiya, Rossiya mamlakatlarida katta loyihalarni suratga olgan",
+    "testimonial-author-name-2": "Aziz Kulimbetov",
+    "testimonial-quote-2": "VFX effektlari bo'yicha spiker. TOKU, Li-Ning, Dolce Gabbana, Akfa, Honor, Lays brendlari bilan ishlab kelmoqda ",
+    "testimonial-author-name-3": "Suxrub Xaqnazarov",
+    "testimonial-quote-3": "Estetik videolar va visual bo'yicha spiker. Uning yaratgan reelslari 1milliondan 64milliongacha kuzatuvlar yig'gan",
+    "testimonial-author-name-4": "Madina Xodjaeva",
+    "testimonial-quote-4": "SMM, Targeting, kopirayting va shaxsiy brend darslari spikeri. GIF3 reklama agentligi asoschisi va 4 yil davomida 50dan ortiq brendlarni ommaga tanitishga yorda"
+}

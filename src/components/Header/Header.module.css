@@ -1,0 +1,53 @@
+.block {
+    background-image: url('./../../assets/images/Header.png');
+    height: 620px;
+    padding-top: 140px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header_title {
+    color: var(--grayscale-white, #fff);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+    max-width: 620px;
+    overflow-wrap: break-word;
+}
+
+.orange {
+    color: var(--brand-orange, #ff6a49);
+}
+
+.header_paragraph {
+    color: var(--grayscale-white, #fff);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin-top: 16px;
+    max-width: 415px;
+}
+
+.header_btn_orange {
+    display: flex;
+    min-width: 260px;
+    padding: 18px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--brand-orange, #ff6a49);
+    color: var(--grayscale-white, #fff);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 36px;
+    outline: none;
+    border: none;
+    position: absolute;
+}
