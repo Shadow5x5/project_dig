@@ -1,0 +1,17 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.cards {
+    display: flex;
+    align-items: stretch;
+    column-gap: 20px;
+}
+.titleBlockTariff {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+}

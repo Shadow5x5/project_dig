@@ -1,0 +1,114 @@
+.cardСontent {
+    margin-top: 75px;
+    background-color: white;
+    max-width: 285px;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .textPopular {
+        border-radius: 12px 12px 0px 0px;
+        background: var(--Grayscale-black, #0d0d0d);
+        height: 34px;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 100%;
+        left: 0px;
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        border-radius: 8px;
+        background: #0d0d0d;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        cursor: pointer;
+    }
+    .headerCard {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #e1e1e1;
+        margin-bottom: 20px;
+
+        .titleCard {
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 100%;
+            margin-bottom: 12px;
+        }
+        .subTitleCard {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 110%;
+            color: #999;
+            height: 100%;
+        }
+        .priceCard {
+            color: #0d0d0d;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 120%;
+            margin-top: 24px;
+            margin-bottom: 20px;
+            align-content: end;
+        }
+    }
+
+    .mainCard {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 110%;
+        flex-grow: 1;
+        .detailsCard {
+            color: #999;
+        }
+        .ulDescription {
+            list-style: none;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 7px;
+            margin-bottom: 32px;
+            li {
+                position: relative;
+                color: #0d0d0d;
+                font-weight: 500;
+                .subDescription1 {
+                    color: #999;
+                    display: block;
+                }
+            }
+            li::before {
+                content: "";
+                background-image: url("./../../../assets/images/circle_black.svg");
+                position: absolute;
+                background-size: 5px;
+                width: 5px;
+                height: 5px;
+                top: 7px;
+                left: -10px;
+                transform: translate(-50%, -50%);
+            }
+        }
+        .subDescription2 {
+            color: #0d0d0d;
+            display: block;
+            margin-top: -32px;
+            margin-bottom: 32px;
+        }
+    }
+}

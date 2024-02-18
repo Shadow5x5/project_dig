@@ -1,0 +1,177 @@
+.card {
+    font-style: normal;
+    margin-top: 16px;
+
+    .innerDiv {
+        border-radius: 16px;
+        background: var(--grayscale-black, #0d0d0d);
+        padding-left: 25px;
+        padding-top: 25px;
+        height: 125px;
+        transition: all 0.3s;
+        cursor: pointer;
+        &.active {
+            border-radius: 16px 16px 0px 0px;
+        }
+        .workFlowStages {
+            color: var(--grayscale-gray-1, #727272);
+            font-size: 16px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+
+            & li img {
+                padding-top: 3px;
+            }
+        }
+        .titleButtonContainer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 25px;
+            margin-top: 6px;
+            .title {
+                color: var(--grayscale-white, #fff);
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 100%;
+            }
+            .animatedButton {
+                height: 46px;
+                width: 46px;
+                background: none;
+                border: none;
+                position: relative;
+                padding: 0px;
+                cursor: pointer;
+                transition: padding 0.3s;
+                &:before,
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 27px;
+                    height: 4px;
+                    background: white;
+                    border-radius: 16px;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    transform-origin: center;
+                }
+                &:before {
+                    transform: rotate(90deg);
+                    transition: all 0.3s;
+                }
+                &:after {
+                    transform: rotate(0deg);
+                    transition: all 0.3s;
+                }
+
+                &.expanded::after,
+                &.expanded::before {
+                    transform: rotate(0deg);
+                    transition: all 0.3s;
+                }
+            }
+        }
+    }
+
+    .projectPhases {
+        color: var(--grayscale-black, #0d0d0d);
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 120%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 10px;
+        background-color: #f6f6f6;
+        transform: translateY(-100%);
+        overflow: hidden;
+        padding: 36px 0px 36px 44px;
+        border-radius: 0px 0px 20px 20px;
+        transition: all 0.3s;
+        & li {
+            list-style: none;
+            width: 550px;
+            padding-left: 15px;
+            position: relative;
+            line-height: 100%;
+        }
+
+        & li::before {
+            content: "";
+            position: absolute;
+            width: 7px;
+            height: 7px;
+            background-image: url("./../../assets/images/circle_black.svg");
+            background-size: 7px;
+            top: 7px;
+            left: -5px;
+            transform: translate(-50%, 0%);
+        }
+    }
+}
+
+.firstCard {
+    margin-top: 40px;
+}
+.blockProjectPhases {
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.blockProjectPhasesActive1 {
+    height: 304px !important;
+}
+
+.projectPhasesActive {
+    transform: translateY(0%) !important;
+}
+
+.blockProjectPhasesActive2 {
+    height: 128px !important;
+}
+.blockProjectPhasesActive3 {
+    height: 224px !important;
+}
+.blockProjectPhasesActive4 {
+    height: 192px !important;
+}
+.blockProjectPhasesActive5 {
+    height: 192px !important;
+}
+
+.projectPhases1 {
+    height: 304px;
+}
+.projectPhases2 {
+    height: 128px;
+}
+.projectPhases3 {
+    height: 224px;
+}
+.projectPhases4 {
+    height: 192px;
+}
+.projectPhases5 {
+    height: 192px;
+}
+
+/* .projectPhases1 {
+    height: 128px;
+}
+.projectPhases2 {
+    height: 224px;
+}
+.projectPhases3 {
+    height: 192px;
+}
+.projectPhases4 {
+    height: 192px;
+} */
