@@ -1,0 +1,41 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.titleCasePortfolio {
+    color: #0d0d0d;
+
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 40px;
+}
+
+.blockButtons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+    button {
+        height: 48px;
+        padding: 0px 20px;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        cursor: pointer;
+
+        color: #727272;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 120%;
+        border-radius: 10px;
+        transition: all 0.3s;
+
+        &.active {
+            border-radius: 8px;
+            background: #ff6a49;
+            color: #fff;
+        }
+    }
+}

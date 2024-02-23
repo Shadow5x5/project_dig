@@ -16,7 +16,7 @@
         .workFlowStages {
             color: var(--grayscale-gray-1, #727272);
             font-size: 16px;
-            font-weight: 400;
+            font-weight: 500;
             display: flex;
             align-items: center;
             column-gap: 8px;
@@ -88,7 +88,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         column-gap: 50px;
-        row-gap: 10px;
+        row-gap: 15px;
         background-color: #f6f6f6;
         transform: translateY(-100%);
         overflow: hidden;
@@ -97,6 +97,7 @@
         transition: all 0.3s;
         & li {
             list-style: none;
+            font-weight: 500;
             width: 550px;
             padding-left: 15px;
             position: relative;

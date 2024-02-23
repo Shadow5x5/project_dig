@@ -1,11 +1,12 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .block {
     height: 820px;
-    background: url('./../../assets/images/Teachers_bg.jpg'), lightgray;
+    background: url("./../../assets/images/Teachers_bg.jpg"), lightgray;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 0 0;

@@ -20,6 +20,7 @@ const TariffBlock = () => {
 
                     return (
                         <TariffCard
+                            key={n}
                             Title={t(`card-title-${n}`)}
                             SubTitle={t(`card-subtitle-${n}`)}
                             Price={t(`plan-price-${n}`)}

@@ -8,6 +8,7 @@
     color: var(--grayscale-white, #fff);
     font-style: normal;
     padding-top: 380px;
+    margin-right: 20px;
 }
 .active {
     background-size: cover;
@@ -16,6 +17,7 @@
     flex-shrink: 2;
     opacity: 0.4;
     transform: scale(0.9);
+    margin-right: 0px;
 }
 
 .content {
@@ -36,4 +38,8 @@
     line-height: 110%;
     font-weight: 400;
     white-space: pre-wrap;
+}
+
+.last {
+    margin-right: 0px !important;
 }

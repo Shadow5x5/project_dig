@@ -19,10 +19,16 @@
     line-height: 100%;
 }
 
-.navlinks li{
-    cursor: pointer;
-    transition: 0.3s ;
+.navlinks li {
+    a {
+        cursor: pointer;
+        transition: 0.3s;
+        text-decoration: none;
+        color: #0d0d0d;
+    }
 }
 .navlinks li:hover {
-    color: #FF6A49;
+    a {
+        color: #ff6a49;
+    }
 }

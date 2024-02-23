@@ -178,7 +178,7 @@
     "multi-theme-buttons": ["Moda", "Tadbirlar", "Go'zallik", "Avto"],
     "students-results": "Talabalarimizning natijalari",
     "alumni-stories": "Bolalar fotosuratchilar bizning kurslarimizdan. Ulardan o'z yo'llari haqida gapirishni va hozirgi yo'llarini baham ko'rishni so'rashdi",
-
+    "watch-the-review": "Sharhni ko'ring",
     "user-comment-name-1": "Rukhsora Furkatovna",
     "user-comment-1": "Mobilografiya orqaliya gentra xarid qilgan o'qituvchimiz. 4- Guruh o'quvchisi Rukhsora Furkatovnaning video izohi",
     "user-comment-name-2": "Kenjayev Sunnatjon",
@@ -187,6 +187,10 @@
     "user-comment-3": "o'qish davomida kursning xarajatini oqilab daromadga chiqdim. 6- Gruh o'quchisi Ismailov Murodning kurs haqidagi izohi",
     "user-comment-name-4": "Sohib Baxtiyorov",
     "user-comment-4": "Grafik dizayn liktan mobilographiyagacha. 4- Gruh o'quchisi Sohib Baxtiyorovning kurs haqidagi izohi",
+    "user-comment-name-5": "Ximranov Imranshox",
+    "user-comment-5": "masofa to’siq emas, Chorvoqdan Toshkentgacha qatnab mibilographyani o'rgangan 7- Gruh o'quvchimiz",
+    "user-comment-name-6": "Rixsimbaeva Muhlisa",
+    "user-comment-6": "O'z iste'dodingizni mobilografiya bilan namoyish eting. 1-guruh o'quvchimiz rixsimbaeva muhlisaning izohi",
     "popular-questions": "Ommabop savollar",
     "question-card-1": "Sizlarda o’qishni tugatgandan song kim bilan ishlashim mumkin?",
     "answer-card-1": "Talabalarimiz korxonalar – do‘konlar, kafelar, bosmaxonalar, restoranlar, avtomobillar savdosi, go‘zallik salonlari bilan ishlaydi. Bloggerlar, psixologlar, kosmetologlar va ijtimoiy tarmoqlarda rivojlanayotgan har qanday mutaxassislar bilan ham ish olib borishadi",
@@ -195,5 +199,26 @@
     "question-card-3": "Kontent yaratishda tajribam bo'lsa, dastur menga mos keladimi?",
     "answer-card-3": "Ha, biz marketing, kontent, SMM bo'yicha tajribaga ega bo'lgan amaldagi mutaxassislarga ham ularni bilimlarini yanada mustahkamlashga yordam beramiz. Ta'limning ko'p qirrali tuzilishi tufayli ularning barchasi o'zlari uchun juda ko'p yangi narsalarni topadilar va kontent sohasida juda yangi darajaga chiqadilar",
     "question-card-4": "Men o’z shahrimda mijoz topa olamanmi?",
-    "answer-card-4": "Talabalarimiz Buxoro, Samarqand, Xiva va boshqa shaharlarda mijozlarni topmoqda. Sizning mijozlaringiz biznes va bloggerlar bo'lgan har qanday shaharda bor"
+    "answer-card-4": "Talabalarimiz Buxoro, Samarqand, Xiva va boshqa shaharlarda mijozlarni topmoqda. Sizning mijozlaringiz biznes va bloggerlar bo'lgan har qanday shaharda bor",
+    "course_selection_header": "Kursingizni tanlang",
+    "field_name_label": "Ism Familiya",
+    "field_phone_label": "Telefon raqam",
+    "field_course_label": "Kursni tanlang",
+    "courseOptionsWithPrices": [
+        {"course": "Sinov tarifi", "price": "550 000 UZS"},
+        {"course": "Online", "price": "1 800 000 UZS"},
+        {"course": "Offline", "price": "4 900 000 UZS"},
+        {"course": "Premium", "price": "14 700 000 UZS"}
+    ],
+    "agreement_confirmation_text": "Men foydalanuvchi shartnomasi va maxfiylik siyosatini o'qidim va roziman",
+    "mobigraphy_quote": "«Mobilografiya-istalgan vaqtda va istalgan joyda suratga olishning qulayligi va qulayligi, aks holda o'tkazib yuborilishi mumkin bo'lgan noyob va jonli lahzalarni suratga olish imkonini beradi»",
+    "quote_author_name": "Ismoilov Inom",
+    "author_position": "Mobilografiya tahlil bo'limi boshlig'i",
+    "footer-link-btn-1": "Kurslar",
+    "footer-link-btn-2": "O’qtuvchilar",
+    "footer-link-btn-3": "Kontaktlar",
+    "footer-link-btn-4": "Biz haqimizda",
+    "footer-link-btn-5": "FAQ",
+    "privacy-policy": "Maxfiylik siyosati",
+    "designer": "Dizayn — AntiSwag"
 }
